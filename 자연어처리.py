@@ -11,6 +11,10 @@ import pandas as pd
 import txtmining as TM 
 from collections import Counter
 
+'''깃 연습용 테스트 - 업데이트 '''
+
+
+
 # df.to_string(index=False)를 사용하면 dataframe을 출력 할 수 있습니다.
 # index=False 를 사용하면 맨 앞 컬럼에 자동 생성되는 인덱스 번호를 빼고 출력 할 수 있습니다
 #datastring = magic.to_string(index=False)
