@@ -21,6 +21,9 @@ if __name__ == "__main__" :
     #여기서 data는 데이터프레임
     
     #스트링화 시켜야함
+    print(data)
+    
+    
     
     txt = komoran.nouns(data)
     

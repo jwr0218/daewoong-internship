@@ -51,3 +51,5 @@ if __name__ == "__main__":
     # dataframe 을 연관성 분석을 진행하려면 dataframe이름.to_string(index=False) 를 해야함 
     find = TM.listupKeyword(TM.preprocessing(text))
     
+    print(find)
+    
