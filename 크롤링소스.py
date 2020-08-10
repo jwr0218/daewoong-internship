@@ -15,7 +15,7 @@ from datetime import datetime
 import time as time
 from selenium.common.exceptions import UnexpectedAlertPresentException
 
-def croller():
+def crawller():
     
     dic = {"title" : [] , "tag" : [] ,"time" : [] ,"keyword": [],"explain":[] ,"columns" : [],"number of columns" : [] }
     df1 = pd.DataFrame(dic)
@@ -188,6 +188,6 @@ def croller():
 
 
 if __name__ == "__main__":
-    a = croller()
+    a = crawller()
     a.to_csv("C:/Users/User/Desktop/Summarize_Public_data_6.csv",encoding='utf-8-sig')
     
