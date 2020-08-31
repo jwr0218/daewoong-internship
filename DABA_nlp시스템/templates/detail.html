@@ -1,0 +1,56 @@
+<body>
+<div>
+선택하신 keyword 의 Details 입니다.
+
+</div>
+<br>
+<br>
+<br>
+
+<div>
+        {{summarize[0]}}<br>
+        
+        {{emotion[0]}} <br>
+
+        <br>
+
+
+
+        {{summarize[1]}}<br>
+        {{emotion[1]}}<br>
+        
+        <br>
+        
+        {{summarize[2]}}<br>
+        {{emotion[2]}}<br>
+        
+        <br>
+        
+        {{summarize[3]}}<br>
+        {{emotion[3]}}<br>
+        
+        <br><br>
+        </div>
+
+
+<div>
+        
+        <img src="{{ url_for('plot', vendor_duns=data) }}" alt="my plot">
+</div>
+
+ <div>
+        {{textrank[0]}}<br> 
+        {{textrank[1]}}<br>
+        {{textrank[2]}}<br>
+        {{textrank[3]}}<br>
+        {{textrank[4]}}<br>
+        {{textrank[5]}}<br>
+        {{textrank[6]}}<br>
+        {{textrank[7]}}<br>
+        {{textrank[8]}}<br>
+        {{textrank[9]}}<br>
+
+        </div>
+
+
+</body>

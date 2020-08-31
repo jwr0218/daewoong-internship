@@ -1,0 +1,49 @@
+<html>
+    <head>
+       DAEWOONG - Marketing Solution with TEXTMINING SOLUTIONS<br>
+    </head>
+    <body>
+
+
+
+
+    <form name  = "detail" action = "/Details" method = "post">
+      <div>please input most interested words ex) 코로나 , 니클로사아딘 ...
+        </div>
+      <input type = "text" name = "Keyword" id =  "Keyword" size = "60">
+
+
+
+      <input type = "submit" value = "Show Details">
+
+    </form>
+
+
+
+
+        LIST UP 10 KEYWORDS <br>
+
+
+
+
+        <div>
+        {{textrank[0]}}<br> 
+
+
+
+
+
+        {{textrank[1]}}<br>
+        {{textrank[2]}}<br>
+        {{textrank[3]}}<br>
+        {{textrank[4]}}<br>
+        {{textrank[5]}}<br>
+        {{textrank[6]}}<br>
+        {{textrank[7]}}<br>
+        {{textrank[8]}}<br>
+        {{textrank[9]}}<br>
+
+        </div>
+       
+</html>
+
